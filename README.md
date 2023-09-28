@@ -1,6 +1,8 @@
 # challenge-03
 Password generator website. Challenge 03 solution.
 
+Try it out here: [https://elmfer.github.io/challenge-03/](https://elmfer.github.io/challenge-03/)
+
 ### Screenshot
 ![Screenshot](screenshot.png)
 
