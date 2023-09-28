@@ -120,12 +120,12 @@ function writePassword() {
 
   var passwordText = document.querySelector("#password");
 
+  var password = "";
+
   try { // Try to make password (may fail if user cancels)
-    var password = generatePassword();
+    password = generatePassword();
   } catch(e) { // Gracefully end session if user cancels
     userIsBusy = false;
-    passwordText.value = "";
-    return;
   }
 
   passwordText.value = password;
